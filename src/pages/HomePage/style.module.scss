@@ -1,0 +1,37 @@
+.container {
+    margin: 0;
+
+ 
+
+
+
+}
+
+.flexBox {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    gap: 2.75rem;
+    background-color: antiquewhite;
+  
+  
+
+    @media (min-width : 1200px){
+        flex-direction: column;
+
+        min-width: 1200px;
+        margin-top: 2rem;
+    }
+    
+}
+main {
+    display: flex;
+   margin: 0 80px;
+    
+    @media (max-width : 1150px){
+        flex-direction: column;
+        margin: 0 ;
+
+    }
+
+}

@@ -1,0 +1,40 @@
+.listStyle {
+    width: 100%;
+    max-width: 800px;
+
+    padding: 2px;
+ 
+
+
+    ul {
+
+        grid-column: 1fr;
+        margin-top: 1.376rem;
+
+        gap: 1.875rem;
+
+        @media (min-width: 1200px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &>p {
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: 900;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.567rem;
+
+        
+    }
+    h3{
+        color: #666;
+    }
+    h2 {
+     
+       margin-top: 1.456rem;
+       font-size: 100px;
+       font-family: "Salsa";
+    }
+
+}

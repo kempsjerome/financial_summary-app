@@ -1,0 +1,22 @@
+.box {
+display: flex;
+flex-direction: column;
+
+border-left: 2px solid;
+padding: 0.5rem 2rem;
+margin: 1rem 0;
+background-color: rgb(247, 245, 244);
+div {
+
+    p {
+        margin-bottom: 1rem;
+  
+    }
+
+}
+  
+
+    &.orange {
+        border-color: var(--color-orange);
+    }
+}
